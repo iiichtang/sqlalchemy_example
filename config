@@ -1,5 +1,0 @@
-DB_USERNAME = "root"
-DB_PASSWORD = "qqq12345"
-DB_HOSTNAME = "iiichtang.cc2quo2myixc.ap-northeast-1.rds.amazonaws.com"
-DB_PORT = "6033"
-DB_DATABASE = "test_sqlalchemy"
