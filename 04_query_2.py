@@ -89,7 +89,7 @@ if __name__ == "__main__":
         print row.id
 
     # 12. or
-    # need to import or
+    # need to import or_
     for row in session.query(User.id).filter(or_(User.name == "test_user_1", User.name == "test_user_2")):
         print row.id
     """
