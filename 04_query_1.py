@@ -69,3 +69,5 @@ if __name__ == "__main__":
     for row in session.query(User.id).filter(text('id=3')):
         print row.id
     """
+
+    session.close()

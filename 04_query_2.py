@@ -93,3 +93,5 @@ if __name__ == "__main__":
     for row in session.query(User.id).filter(or_(User.name == "test_user_1", User.name == "test_user_2")):
         print row.id
     """
+
+    session.close()

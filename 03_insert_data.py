@@ -71,4 +71,5 @@ if __name__ == "__main__":
 
     session.commit()
     # data can only be written when perform QUERY, COMMIT, FLUSH
-
+    
+    session.close()

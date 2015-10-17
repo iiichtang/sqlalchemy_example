@@ -41,3 +41,5 @@ if __name__ == "__main__":
     print deleted_row
 
     session.commit()
+
+    session.close()
